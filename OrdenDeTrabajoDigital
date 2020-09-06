@@ -1,0 +1,40 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+function App() 
+{
+  return (
+    <div className="container">
+   <h1 className="title">
+      NOMBRE <span aria-label="emoji"></span>
+   </h1>
+   <input type="text" className="new-task"/>
+   <h1 className="title">
+      PEDIDO <span aria-label="emoji"></span>
+   </h1>
+   <input type="text" className="new-task"/>
+   <h1 className="title">
+      ETIQUETAS FABRICADAS <span aria-label="emoji"></span>
+   </h1>
+   <input type="text" className="new-task"/>
+   <h1 className="title">
+      MERMA <span aria-label="emoji"></span>
+   </h1>
+   <input type="text" className="new-task"/>
+   <h1 className="title">
+      TIEMPO DE FABRICACION <span aria-label="emoji"></span>
+   </h1>
+   <input type="text" className="new-task"/>
+
+   <form>
+<div align="center">
+  <input type="button" value="GUARDAR DATOS" name="Back2" onclick="history.back()" />
+  </div>
+ </form>
+
+</div>
+        );
+}
+
+export default App;
